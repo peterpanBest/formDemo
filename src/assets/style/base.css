@@ -1,0 +1,261 @@
+input{
+	-webkit-appearance: none;
+}
+
+.w35{
+	width: 35%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+
+.w50{
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+
+.w33{
+	width: 33%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+
+.w70{
+	width: 70%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+
+.wf90{
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+
+.wf100{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+
+.wfr90{
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	float: right;
+}
+
+.txtleft{
+	text-align: left;
+}
+
+.w86{
+	width: 86%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.w80{
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.w90{
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.w95{
+	width: 95%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.w96{
+	width: 96%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.ptb10{
+	padding: .1rem 0;
+}
+
+.ptb15{
+	padding: .15rem 0;
+}
+
+.mg5{
+	margin: .05rem 0;
+}
+
+.mg10{
+	margin: .1rem 0;
+}
+
+.mg15{
+	margin: .15rem 0;
+}
+
+.mgt15{
+	margin-top: .15rem;
+}
+
+.mgt45{
+	margin-top: .45rem;
+}
+
+.fts13{
+	font-size: .13rem;
+}
+
+.fts17{
+	font-size: .17rem;
+}
+
+.fts30{
+	font-size: .3rem;
+}
+
+.check-word{
+	padding-left: .08rem;
+}
+
+.icon-pre-div{
+	width: .2rem;
+	float: right;
+}
+
+.icon-pre{
+	display: block;
+	width: .08rem;
+	height: .15rem;
+	vertical-align: middle;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.xz90{
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); 	/* IE 9 */
+	-moz-transform:rotate(90deg); 	/* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+	-o-transform:rotate(90deg); 
+}
+
+.titile-color{
+	background: #E8E8E8!important;
+}
+
+.div-check{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.inp-img-ul{
+	height: auto;
+	overflow: hidden;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	float: left;
+}
+
+.inp-img-sub{
+	float: left;
+	height: .8rem;
+	width: .8rem;
+	border: 1px dashed #DADADA;
+}
+
+.inp-img-word-add{
+	height: .8rem;
+	width: .8rem;
+	line-height: .70rem;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	color: #DADADA;
+	font-weight: 700;
+	font-size: .5rem;
+}
+
+.inp-img-word{
+	width: .8rem;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+	text-align: center;
+	color: deepskyblue;
+}
+
+.inp-txt-div{
+	width: .5rem;
+	height: .25rem;
+}
+
+.title-box{
+	height: .55rem;
+	line-height: .55rem;
+	font-size: .17rem;
+	color: #333333;
+	text-align: left;
+}
+
+.btn-div{
+	display: block;
+	width: 87%;
+	height: .38rem;
+	line-height: .38rem;
+	text-align: center;
+	background: #4A8EF4;
+	border-radius: .06rem;
+	font-size: .18rem;
+	color: #FFFFFF;
+	margin: .15rem auto;
+}
+
+.titleinfo{
+	width: 50%;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	text-align: left;
+}
+
+
+/*********************************** 表单填写样式 *******************************************/
+.inputinfo{
+	width: 100%;
+    height: 60px;
+    border: none;
+    outline: none;
+    text-align: right;
+}
+
+.inputinfo:empty:before{
+	content: attr(placeholder);
+	color:#b1b1b1;
+	font-size: .16rem;
+}
+.inputinfo:focus:before{
+	content:none;
+}
+
+.words-style1{
+	font-size: .16rem;
+	color: #333333;
+}
+/*********************************** end *******************************************/
